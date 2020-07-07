@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/noomdalv/webSockets_chat/issues"
   },
-  "homepage": "https://github.com/noomdalv/webSockets_chat#readme"
+  "homepage": "https://github.com/noomdalv/webSockets_chat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
