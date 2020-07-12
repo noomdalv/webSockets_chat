@@ -9,7 +9,15 @@
 	<title>WebSockets 101</title>
 </head>
 <body>
-	<h1>WebSockets 101</h1>
-	<script src="/chat.js"></script>	
+	<div id="mario-chat">
+		<div id="chat-window">
+			<div id="output"></div>
+			<div id="feedback"></div>
+		</div>
+		<input type="text" id="nickname" placeholder="Nickname" />
+		<input type="text" id="message" placeholder="Type here..." />
+		<button id="btn">Send</button>
+	</div>
+	<script src="/chat.js"></script>
 </body>
 </html>

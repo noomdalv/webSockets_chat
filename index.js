@@ -13,6 +13,14 @@ app.use(express.static("public"));
 // Socket Setup
 var io = socket(server);
 
-io.on("connection", function() {
-	console.log("Socket connection established")
+io.on("connection", function(socket) {
+	console.log("Socket connection established");
+
+	socket.on("chat", data => {
+		io.sockets.emit("chat", data)
+	})
+
+	socket.on("typing", data => {
+		socket.broadcast.emit("typing", data);
+	})
 })
