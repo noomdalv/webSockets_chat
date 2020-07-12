@@ -4,12 +4,13 @@ This app consists in a basic chat app implementation with Web Sockets using sock
 Users are able to connect to the localhost Express server, which assigns a unique socket id to each user, allowing them to send and receive messages in real time.
 
 ## Built With
+
 - Node (JS Runtime)
 - Express.js (Web Server)
 - Socket.io (WebSockets library)
 - HTML / CSS
 
-## App Screenshots
+## App Screenshot
 
 ![screenshot](./public/ss.jpg)
 
@@ -34,7 +35,8 @@ npm install
 nodemon index
 
 ```
-### Special Thanks to [The Net Ninja](https://www.youtube.com/c/TheNetNinja) for his amazing tutorial.
+
+#### Special Thanks to [The Net Ninja](https://www.youtube.com/c/TheNetNinja) for his amazing tutorial.
 
 ## Author
 
