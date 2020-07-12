@@ -8,6 +8,14 @@ h2{
     color: #575ed8;
 }
 
+#title {
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	color: #575ed8;
+	background-color: #e3e8ec;	
+}
+
 #mario-chat{
     max-width: 600px;
     margin: 30px auto;
