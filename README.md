@@ -1,6 +1,6 @@
 ## WebSockets Chat App
 
-This app consists in a basic chat app implementation with Web Sockets using socket.io library..
+This app consists in a basic chat app implementation with Web Sockets using socket.io library.
 Users are able to connect to the localhost Express server, which assigns a unique socket id to each user, allowing them to send and receive messages in real time.
 
 ## Built With
@@ -9,7 +9,7 @@ Users are able to connect to the localhost Express server, which assigns a uniqu
 - Socket.io (WebSockets library)
 - HTML / CSS
 
-## App Screenshots
+## App Screenshot
 
 ![screenshot](./public/ss.jpg)
 
